@@ -60,13 +60,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 Для реальной отправки писем настройте SMTP в файле `settings.py`.
 
-## Структура проекта
 
-news_project/
-│
-├── news/ # Приложение для работы с новостями
-├── accounts/ # Приложение для работы с пользователями
-├── news_api/ # Приложение для работы с API новостей
-├── news_project/ # Основной модуль проекта
-├── manage.py
-└── requirements.txt
