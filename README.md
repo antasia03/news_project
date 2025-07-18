@@ -16,27 +16,28 @@
 ## Быстрый старт
 
 1. **Клонируйте репозиторий:**
-git clone https://github.com/antasia03/news_project.git
-cd news_project
+`git clone https://github.com/antasia03/news_project`
 
-2. **Создайте и активируйте виртуальное окружение:**
+`cd news_project`
+
+3. **Создайте и активируйте виртуальное окружение:**
 python -m venv venv
 source venv/bin/activate # Linux/Mac
 venv\Scripts\activate # Windows
 
-3. **Установите зависимости:**
+4. **Установите зависимости:**
 pip install -r requirements.txt
 
-4. **Примените миграции:**
+5. **Примените миграции:**
 python manage.py migrate
 
-5. **Создайте суперпользователя для доступа к админке:**
+6. **Создайте суперпользователя для доступа к админке:**
 python manage.py createsuperuser
 
-6. **Запустите сервер:**
+7. **Запустите сервер:**
 python manage.py runserver
 
-7. **Откройте сайт в браузере:**
+8. **Откройте сайт в браузере:**
 http://127.0.0.1:8000/
 
 ## Админка
